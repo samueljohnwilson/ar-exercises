@@ -21,3 +21,7 @@ puts "----------"
 for employee in @store1.employees
   puts "#{employee.first_name} #{employee.last_name}"
 end
+
+for employee in @store2.employees
+  puts "#{employee.first_name} #{employee.last_name}"
+end
